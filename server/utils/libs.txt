@@ -1,0 +1,8 @@
+express -> bibliote para estrutura de roteamento
+axios -> Axios é um cliente HTTP baseado em promessas node.js para o navegador (requisições HTTP).
+cors -> Um middleware para conexão entre o front-end e back-end
+ytdl-cor -> Mais um módulo de download do YouTube. Escrito apenas com Javascript e uma interface de streaming amigável ao nó.
+@xenova/transformers -> Executar modelos de inteligência virtual (transformers.js)
+fluent-ffmpeg -> manipular o vídeo - obter dados, neste exemplo será utilizado para obter o texto do audio do vídeo.
+ffmpeg-static -> 
+node-wav -> converter o conteúdo do vídeo (wave_array_32) - Obter apenas dados do áudio;

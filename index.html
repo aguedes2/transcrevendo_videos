@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="/logo.svg" />
+      <h1>Shorts Summary</h1>
+      <form id="form" action="">
+        <input type="url" id="url" placeholder="URL do vídeo" />
+        <button title="Resumir"><i class="ph ph-play"></i></button>
+      </form>
+      <h2 id="status" class="placeholder"></h2>
+      <div id="transcription">
+        <h2>Transcrição</h2>
+        <p id="transcription-content" class="placeholder">
+          Aqui você verá a transcrição completa do short.
+        </p>
+      </div>
+
+      <div id="resumo">
+        <h2>Resumo</h2>
+        <p id="resumo-content" class="placeholder">
+          Aqui vc verá um resumo da transcrição do vídeo;
+        </p>
+      </div>
+    </div>
+    <script type="module" src="web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>

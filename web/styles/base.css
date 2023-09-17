@@ -1,0 +1,34 @@
+:root {
+  --background-color: #121214;
+  --font-color: #fff;
+  --font-size: 16px;
+  --resume-color: #7c7c8a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  background-color: #121214;
+  color: #ffffff;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+body > h1 {
+  font-size: 1.375rem;
+  font-weight: bold;
+}

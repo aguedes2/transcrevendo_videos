@@ -1,0 +1,20 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+#app h1 {
+  color: #996dff;
+  margin-top: -0.3125rem;
+}
+
+#app img {
+  width: 4rem;
+}
+
+#app div {
+  width: 100%;
+}
