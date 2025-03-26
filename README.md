@@ -24,7 +24,7 @@ Criei a estrutura da seguinte forma</br>
 ➡️ form.js importa o _server.js_ e realiza toda a lógia do front-end da aplicação;</br>
 ➡️ server.js responsável por importar o axios e receber a baseURL.</br>
 
-**Back-end**
+**Back-end** 
 
 1️⃣ __express__ ➡️ estrutura de roteamento e criação dos _end_points_;</br>
 2️⃣ __axios__ ➡️ Axios é um cliente HTTP baseado em promessas node.js para o navegador (requisições HTTP);</br>
@@ -41,7 +41,7 @@ Criei a estrutura da seguinte forma</br>
 ➡️ __summary.js__: utiliza a lib _@xenova/transformers_ para realizar o resumo do texto obtido a partir do áudio do vídeo.;</br>
 ➡️ __transcribe.js__: responsável opera obtenção da transcrição do texto obtido a partir do áudio do vídeo.</br>
 
-### Conclusão
+### Conclusão 🤔
 
 Um projeto simples em javaScript com utilização de uma lib baseada em IA realiza a transcrição do áudio de um vídeo e também o resumo deste áudio. Sem esquecer de algumas aplicações possíveis de fazer a partir deste código, tais como: 
 ➡️ Criação de legenda para vídeo 😮;</br>
