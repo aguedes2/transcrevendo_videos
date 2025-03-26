@@ -1,7 +1,7 @@
 # Transcrever Shorts
 
 ## Transcrevendo_videos_shorts
-Este código visa baixar o áudio de um vídeo curto do youtube (Shorts), captar a fala, transcrevê-la e resumi-la.
+Este código visa baixar o áudio de um vídeo curto do youtube (Shorts), captar a fala, transcrevê-la e resumi-la por meio de IA 🤖.
 
 ## Tecnologias
 
@@ -42,3 +42,8 @@ Criei a estrutura da seguinte forma</br>
 ➡️ __transcribe.js__: responsável opera obtenção da transcrição do texto obtido a partir do áudio do vídeo.</br>
 
 ### Conclusão
+
+Um projeto simples em javaScript com utilização de uma lib baseada em IA realiza a transcrição do áudio de um vídeo e também o resumo deste áudio. Sem esquecer de algumas aplicações possíveis de fazer a partir deste código, tais como: 
+➡️ Criação de legenda para vídeo 😮;</br>
+➡️ Se quiser apenas fazer download do vídeo do youtube, é possível alterar o código e obter apenas o vídeo 😊;</br>
+➡️ É possível fazer alteração no código para fazer download do vídeo escolhendo a qualidade do vídeo a ser obtida 😜;</br>
